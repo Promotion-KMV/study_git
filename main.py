@@ -1,4 +1,7 @@
+from file_two import *
 
+
+@decorator
 def test():
     n = 1
     lst = []
@@ -8,4 +11,6 @@ def test():
         if number % n == 0:
             lst.append(n)
     print(lst)
+
+
 test()
